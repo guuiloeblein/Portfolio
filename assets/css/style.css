@@ -1,10 +1,10 @@
-/* FONTES */
+
 
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800;900&display=swap');
 
 
-/* RAIZ */
+
 
 :root {
 
@@ -13,7 +13,7 @@
 
 }
 
-/* RESETE */
+
 
 * {
 
@@ -26,7 +26,7 @@
 
 }
 
-/* Para esconder a barra de rolagem, mas ela ainda existe a rolagem só nao pode ser vista */
+
 ::-webkit-scrollbar { 
 
     width: 0;
@@ -34,7 +34,7 @@
 
 }
 
-/* ANIMAÇÃO DA LUZ DE CIMA */
+
 
 @-webkit-keyframes move_eye { from { margin-left: -20%; } to { margin-left: 100%; }  }
 @keyframes move_eye { from { margin-left: -20%; } to { margin-left: 100%; }  }
@@ -70,7 +70,7 @@ body {
 
 }
 
-.bar { /* Barrinha verde em cima dos h2 */
+.bar { 
 
     background: #f81f01;
     background: -webkit-linear-gradient(to right, #493240, #f81f01);
@@ -94,7 +94,7 @@ header {
 
 }
 
-/* MENU */
+
 
 .nav-bar {
 
@@ -205,9 +205,7 @@ header {
     color: #b1acb9;
    }
 
-/* ------------------------------------------------------------------------ */
 
-/* LOGO */
 
 main {
 
@@ -240,7 +238,7 @@ main {
     animation: mover-logo-img 0.5s both ;
 }
 
-/* BOTAO QUE JOGA PAGINA PARA BAIXO */
+
 
 .scroll {
 
@@ -256,7 +254,7 @@ main {
     padding: 10px;
     border-radius: 50%;
     width: 50px;
-    animation: jumping 1s linear infinite; /* definindo os parametros da animação */
+    animation: jumping 1s linear infinite; 
     cursor: pointer;
 
 }
@@ -309,7 +307,6 @@ main {
 }
 
 
-/* ANIMAÇÃO DA LOGO */
 
 
 @keyframes mover-logo-desc {
@@ -347,20 +344,20 @@ main {
 
 
 
-@keyframes jumping { /* jumping é o nome da animação que eu escolhi */
+@keyframes jumping { 
 
-from { /* aqui diz o estado inicial dela, vai começar 'from' subindo -15px pra cima */
+from { 
     transform: translateY(-15px);
 
 }
 
-50% { /* aqui diz que a animação no 50% vai voltar para estado inicial */
+50% { 
 
     transform: translateY(0px);
 
 }
 
-to { /* aqui diz o estado final dela, vai voltar -15 pra cima novamente e ficar nesse loop */
+to { 
 
     transform: translateY(-15px);
 
@@ -386,9 +383,7 @@ to { /* aqui diz o estado final dela, vai voltar -15 pra cima novamente e ficar 
 
 }
 
-/* ------------------------------------------------------------------------ */
 
-/* PROJETOS DESTAQUE */
 
 .projetos-destaque--area {
 
@@ -531,9 +526,7 @@ to { /* aqui diz o estado final dela, vai voltar -15 pra cima novamente e ficar 
 
 }
 
-/* ------------------------------------------------------------------------ */
 
-/* CONTEUDO SECUNDARIO */
 
 .conteudo-secundario {
 
@@ -618,9 +611,7 @@ to { /* aqui diz o estado final dela, vai voltar -15 pra cima novamente e ficar 
 
 }
 
-/* ------------------------------------------------------------------------ */
 
-/* PAGINA CONTATO */
 
 .contato {
 
@@ -815,7 +806,7 @@ form textarea {
     margin-bottom: 20px;
     background-color: rgb(49, 52, 62);
     color: white;
-    resize: none; /* Para usuario nao aumentar a caixa de msg */
+    resize: none; 
 
 }
 
@@ -842,9 +833,7 @@ form button:hover {
 
 }
 
-/* ------------------------------------------------------------------------ */
 
-/* FOOTER */
 
 footer {
 
@@ -904,31 +893,9 @@ footer {
 
     width: 60px;
     cursor: pointer;
-    animation: jumping 1s linear infinite; /* definindo os parametros da animação */
+    animation: jumping 1s linear infinite; 
 
 }
-
-
-
-/* ANIMAÇÃO */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
