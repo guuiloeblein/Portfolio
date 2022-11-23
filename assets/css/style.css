@@ -845,64 +845,75 @@ form button:hover {
 footer {
 
     background-color: #181818;
-    width: 100vw;
 
 }
 
-.rodape-area {
+.footer-area {
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px 0;
+    padding: 50px 0 10px 0;
     text-align: center;
 
 }
 
-.links {
-
-    margin-bottom: 20px;
-    padding-top: 50px;
-
-}
-
-.links img {
-
-    width: 35px;
-    margin-right: 5px;
-    cursor: pointer;
-
-}
-
-.rodape-desc p {
+.footer-name {
 
     font-family: var(--font-padrao);
-    font-size: 16px;
-    color: #888;
-    margin-bottom: 3px;
+    font-size: 20px;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.26);
+    margin-bottom: 30px;
+    letter-spacing: 2px;
 
 }
 
-.rodape-desc span {
+.footer-menu ul {
+    display: flex;
+    gap: 18px;
+}
 
-    color: #555;
+.footer-menu li a {
+    font-family: var(--font-padrao);
+    color: #B2B2B2;
+    font-size: 15px;
+}
+
+.footer-links {
+
+    margin-top: 20px;
+    margin-bottom: 20px;
 
 }
 
-.topo {
+.footer-links img {
 
-    align-self: flex-end;
-
-}
-
-.topo img {
-
-    width: 60px;
+    width: 30px;
+    margin-right: 10px;
     cursor: pointer;
-    animation: jumping 1s linear infinite; 
 
 }
+
+.footer-copy {
+
+    font-family: var(--font-padrao);
+    font-size: 11px;
+    color: #B2B2B2;
+
+}
+
+.footer-copy span {
+
+    font-family: var(--font-padrao);
+    background-image: linear-gradient(145deg, #83486c, #f81e01d5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+
 
 
 
@@ -1110,30 +1121,24 @@ footer {
     
     /* RODAPE */
     
-    .topo img {
     
-        width: 40px;
-        padding: 10px 10px 0 0;
+    .footer-area {
     
-    }
-    
-    .rodape-area {
-    
-        padding: 0;
+        padding: 30px 10px 10px 10px;
     
     }
-    
-    .rodape-desc p {
-    
+
+    .footer-name {
         font-size: 14px;
-    
+    }
+
+    .footer-menu li a {
+
+        font-size: 13px;
+
     }
     
-    .links img {
     
-        width: 32px;
-    
-    }
     
     }
 
