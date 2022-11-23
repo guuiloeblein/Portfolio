@@ -428,7 +428,7 @@ to {
     font-family: var(--font-padrao);
     margin-bottom: 125px;
     font-size: 20px;
-    background-image: linear-gradient(145deg, #f81f01, #493240);
+    background-image: linear-gradient(145deg, #f81f01, #572da5);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-transform: uppercase;
@@ -553,13 +553,13 @@ to {
 
 }
 
-.conteudo-secundario--descicao .bar {
+.conteudo-secundario--descricao .bar {
 
     margin-bottom: 30px;
 
 }
 
-.conteudo-secundario--descicao h2 {
+.conteudo-secundario--descricao h2 {
 
     font-family: var(--font-padrao);
     color: white;
@@ -567,11 +567,11 @@ to {
 
 }
 
-.conteudo-secundario--descicao p {
+.conteudo-secundario--descricao p {
 
     font-family: var(--font-padrao);
     margin: 10px 0 50px 0;
-    background-image: linear-gradient(145deg, #f81f01, #493240);
+    background-image: linear-gradient(-145deg, #f81f01 85%, #572da5);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-transform: uppercase;
@@ -644,7 +644,7 @@ to {
     font-family: var(--font-padrao);
     text-align: center;
     margin-bottom: 30px;
-    background-image: linear-gradient(-145deg, #493240, #f81e01d5);
+    background-image: linear-gradient(145deg, #f81f01, #572da5);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
