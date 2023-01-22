@@ -1349,13 +1349,48 @@ footer {
 
     @media (min-width:1025px) and (max-width:1439px) {
 
+
+
         .idioma {
             top: 7.7%;
+        }
+
+        .nav-bar {
+            padding: 2.5rem 5rem;
+        }
+
+        .logo-desc {
+            margin-top: 0;
+        }
+
+        .logo-desc h1 {
+            font-size: 45px;
+        }
+
+        .logo-img img {
+            padding-top: 80px;
         }
 
         .conteudo-secundario--area {
             padding: 120px 10px;
         }
+
+        @keyframes botao {
+
+            0% {
+            
+                transform: translateY(700px);
+            
+            }
+            
+            100% {
+            
+                transform: translateY(-25px);
+            
+            }
+            
+            }
+
     }
 
     @media (min-width:1440px) and (max-width:1660px) {
